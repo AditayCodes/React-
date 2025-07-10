@@ -1,5 +1,5 @@
 
-# 01_basic
+# 01basic
 
 This is a basic React project that renders a simple `<h1>` tag.  
 It serves as a minimal starting point for learning or building with React.
