@@ -1,12 +1,58 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📝 React Todo App (Context API)
+A minimal Todo application built with React, utilizing the Context API for state management. Learn how to manage global state (todos) without third-party libraries!
 
-Currently, two official plugins are available:
+## 🧩 Features
+- Add, toggle, and delete todos
+- Centralized state via Context API
+- Reusable components with clear separation of concerns
+- Built with functional components and React Hooks
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Getting Started
 
-## Expanding the ESLint configuration
+### Prerequisites
+- Node.js (v14+) and npm
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Setup
+1. **Clone the repo:**
+```
+git clone https://github.com/AditayCodes/React-.git
+cd React-/05todoContext
+```
+
+2. **Install dependencies:**
+   ```
+   npm install
+   ```
+   
+3. **Run the development server:**
+   ```
+   npm start
+   ```
+
+## 🧱 Project Structure
+```
+05todoContext/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── TodoInput.jsx
+│   │   ├── TodoList.jsx
+│   │   └── TodoItem.jsx
+│   ├── context/
+│   │   └── TodoContext.jsx
+│   ├── App.jsx
+│   └── index.jsx
+└── package.json
+```
+
+## 📚 Context API Overview
+- **todos** — current todo items array
+- **addTodo(text)** — add a new todo
+- **toggleTodo(id)** — toggle completed state
+- **deleteTodo(id)** — remove a todo
+
+## 📄 License
+MIT License — feel free to use and modify this code.
+
